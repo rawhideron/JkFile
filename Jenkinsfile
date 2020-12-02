@@ -1,5 +1,5 @@
 pipeline {	 
-	agent jenkin2_worker2	 
+	agent Java	 
     	stages {     	 
     	stage("Compile") {          	 
             	steps {               	 
