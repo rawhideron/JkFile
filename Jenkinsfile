@@ -1,5 +1,5 @@
 pipeline {	 
-	agent any	 
+	agent jenkin2_worker2	 
     	stages {     	 
     	stage("Compile") {          	 
             	steps {               	 
