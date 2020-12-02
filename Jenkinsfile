@@ -1,5 +1,5 @@
 pipeline {	 
-	agent {"Java"}	 
+	agent {label 'Java'}	 
     	stages {     	 
     	stage("Compile") {          	 
             	steps {               	 
