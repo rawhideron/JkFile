@@ -1,5 +1,5 @@
 pipeline {	 
-	agent any	 
+	agent java8	 
     	stages {     	 
     	stage("Compile") {          	 
             	steps {               	 
